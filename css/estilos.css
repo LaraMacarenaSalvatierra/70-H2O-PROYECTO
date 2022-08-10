@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Concert+One&family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Sacramento&family=Viga&display=swap');
+
+body {
+    background-image: linear-gradient(to right top, #052137, #0d3d60, #135c8c, #167dba, #12a0eb);
+    }
+    .eslogan { 
+    font-family: 'Courgette', cursive;
+    background-color: lightblue;
+    font-size:xx-large;
+    text-align: center;
+    padding: 30px;
+}
+
+.header__nav__ul {
+    font-size:18PX;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    background-color: lightblue;
+    font-family: 'Courgette', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.animate__animated {
+    --animate-duration: 2s;
+}
+
+.imagenConLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    transition: all;
+}
+
+@media screen and (max-width:768px) {
+    .imagen2 {
+        width: 65%;
+        height: 75%;
+        padding: 2%;
+    }
+}
+
+.parrafos {
+   color:#f5e5ed ; 
+}
+.formulario {
+    font-family: 'Courgette', cursive;
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    font-size: x-large;
+    padding: 5%;
+    color:#f5e5ed ;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.parrafoFooter {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    color: #f5e5ed;
+}
+
