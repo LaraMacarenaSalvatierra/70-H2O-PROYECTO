@@ -2,27 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Concert+One&family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Sacramento&family=Viga&display=swap');
 
 body {
-    background-image: linear-gradient(to right top, #052137, #0d3d60, #135c8c, #167dba, #12a0eb);
+    background-image: linear-gradient(to right bottom, #051937, #003252, #004d6b, #006981, #098692);
     }
     .eslogan { 
     font-family: 'Courgette', cursive;
     background-color: lightblue;
     font-size:xx-large;
     text-align: center;
-    padding: 30px;
+    padding: 5%;
 }
 
 .header__nav__ul {
     font-size:18PX;
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;
-}
-
-.button {
-    display: inline-block;
-    padding: 0;
-    text-decoration: none;
-    color: white;
 }
 
 h1{
@@ -47,28 +40,19 @@ h1{
     transition: all;
 }
 
-@media screen and (max-width:768px) {
-    .imagen2 {
-        width: 65%;
-        height: 75%;
-        padding: 2%;
-    }
-}
+
 
 .parrafos {
    color:#f5e5ed ; 
 }
+
+
 .formulario {
     font-family: 'Courgette', cursive;
-    width: 45%;
-    height: 45%;
-    display: block;
-    margin-left: auto;
-    margin: auto;
     font-size: x-large;
-    padding: 5%;
     color:#f5e5ed ;
 }
+
 
 h2 {
     font-family: 'Courgette', cursive;

@@ -17,45 +17,38 @@
         <header> <!--Acá empieza el navegador-->
             <div class="eslogan animate__animated animate__zoomIn">Sólo se hunde el que no nada</div>
             <nav>
-                <ul class="header__nav__ul">
-                    <li><a href="../index.html" class="button">INICIO</a></li>
-                    <li><a href="./sobrenosotros.html" class="button">SOBRE NOSOTROS</a></li>
-                    <li><a href="./sobreelcoach.html" class="button">SOBRE EL COACH</a></li>
-                    <li><a href="./participaciones.html" class="button">PARTICIPACIONES</a></li>
-                    <li><a href="#" class="button">CONTACTO</a></li>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sobreelcoach.html">SOBRE EL COACH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/participaciones.html">PARTICIPACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
                 </ul>
-            </nav>
+           </nav>
         </header>
         <!--Acá termina el navegador-->
-        <main>
+        <main class="row">
             <h1 class="animate__animated animate__fadeIn">Contacto</h1>
             <h2>Escribinos</h2>
-            <section class="sectionFormulario">
-                <form class="formulario" action="">
-                    <section class="sectionFormulario">
-                        <form class="formulario" action="">
-                            <div>
-                                <label for="">Nombre y Apellido</label>
-                                <input type="Nombre">
-                            </div>
-                        
-                            <div>
-                                <label for="">E-mail</label>
-                                <input type="E-mail">
-                            </div>
-                        
-                            <div>
-                                <label for="">Consulta</label>
-                                <input class="consultaTamaño" type="Consulta">
-                            </div>
-               
-                    <div>
-                        <input type="submit">
-                    </div>
-                
-                </form>
-            </section> <!--Acá termina el formulario-->     
-        </main>
+            <div class="col-mb-6 col-sm-12 col-lg-12 formulario">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="col-mb-6  col-sm-12 col-lg-12 formulario">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </main> <!--Acá termina el main-->
         <footer>
             <p class="parrafoFooter">Todos los derechos reservados</p> 
         </footer> 
