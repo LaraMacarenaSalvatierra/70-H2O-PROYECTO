@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right bottom, #051937, #003252, #004d6b, #006981, #098692);
+    }
+    .eslogan { 
+    font-family: $fuente;
+    background-color: $colorCeleste;
+    font-size:xx-large;
+    text-align: center;
+    padding: 5%;
+}
+
+@mixin h1 (40px, bold, center) {
+    
+    background-color: $colorCeleste;
+    font-family: $fuente;
+    font-style: normal;
+    font-weight: $peso;
+    font-size: $size;
+    color: $colorNegro;
+    text-align: $alineacion;
+}
+
+.animate__animated {
+    --animate-duration: 2s;
+}

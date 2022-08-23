@@ -11,12 +11,6 @@ body {
     padding: 5%;
 }
 
-.header__nav__ul {
-    font-size:18PX;
-    font-family: 'Amaranth', sans-serif;
-    font-weight: bold;
-}
-
 h1{
     background-color: lightblue;
     font-family: 'Courgette', cursive;
@@ -39,12 +33,9 @@ h1{
     transition: all;
 }
 
-
-
 .parrafos {
    color:#f5e5ed ; 
 }
-
 
 .formulario {
     font-family: 'Courgette', cursive;

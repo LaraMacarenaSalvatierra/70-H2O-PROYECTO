@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.parrafoFooter {
+    font-family: $fuente;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    color: $colorBlanco;
