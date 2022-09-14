@@ -7,41 +7,49 @@
     <title>Sobre nosotros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="../multimedia/gorro-de-natacion.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/estilos1.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta name="description"
-    content="Palabras claves">
+    content="Esta página habla sobre el equipo, cómo surge y un poco de su historia, objetivos y metas">
  
     <meta name="keywords"
-    content="EQUIPO, AGUAS ABIERTAS, NATACION,">
+    content="EQUIPO, AGUAS ABIERTAS, NATACION, COVID, NADAR, NADADORES, ATLETAS">
   </head>
 <body>
     <div class="container-fluid">
         <header> <!--Acá empieza el navegador-->
-            <div class="eslogan animate__animated animate__zoomIn">Sólo se hunde el que no nada</div> <!--Esto es un elogan-->
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SOBRE NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/sobreelcoach.html">SOBRE EL COACH</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/participaciones.html">PARTICIPACIONES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+            <div class="eslogan">
+              <div class="logo2"><img src="../multimedia/Logo2.jpeg" alt="Esto es un logo"></div>
+              <div class="parrafoConLogo"><p class="animate__animated animate__zoomIn">Sólo se hunde el que no nada</p></div>
+            </div> <!--Esto es un elogan-->
+            <div class="navegador">
+              <nav>
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/sobreelcoach.html">EL COACH</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/participaciones.html">PARTICIPACIONES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
         </header> <!--Acá termina el navegador-->
         <main class="row"> <!--Contenido principal-->
             <h1 class="animate__animated animate__fadeIn" >Sobre nosotros</h1>
-            <div class="col-lg-6 col-md-5 col-sm-3">
+            <div class="col-xl-6 col-lg-6 col-md-5 col-sm-3">
                 <P class="parrafos"> 
                   70% H2O es el nombre del equipo master de aguas abiertas, el cual se especializa en realizar entrenamientos y competiciones en ríos, lagos y mar durante la temporada de primavera-verano de Argentina. Mientras en las estaciones de otoño-invierno participan en diferentes competiciones en torneos master, postas americanas y eventos sociales de diferente magnitud.
 <br>El nombre del equipo surge en honor al padre del coach y en un contexto de dificultad. <br>En su adolescencia, Kevin no estaba contento con su desempeño deportivo por lo que decidió recurrir al apoyo de su madre, aunque no obtuvo la respuesta que esperaba, ya que la misma fue una mirada desoladora sobre su futuro como nadador. 
@@ -51,21 +59,35 @@
 
                 </P> <!-- Acá termina el contenido prinicipal-->
             </div>
-            <div class="col-lg-6 col-md-5 col-sm-3">
+            <div class="col-xl-6 col-lg-6 col-md-5 col-sm-3">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="../multimedia/fotos70.jpeg" class="d-block w-100" alt="Esto es una imagen">
+                        <img src="../multimedia/fotos70.jpeg" class="d-block w-100" alt="Esto es una imagen" loading="lazy">
                       </div>
                       <div class="carousel-item">
-                        <img src="../multimedia/fotos702.jpeg" class="d-block w-100" alt="Esto es una imagen">
+                        <img src="../multimedia/fotos702.jpeg" class="d-block w-100" alt="Esto es una imagen" loading="lazy">
                       </div>
                     </div>
                 </div>
             </div> 
         </main>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Volviendo al ruedo</h5>
+            <p class="card-text">Natación post-covid</p>
+            <a href="https://youtu.be/zXRmK0L-swo" class="btn btn-primary">Mirá el video</a>
+          </div>
+        </div>
+        <aside>
+          <img src="../multimedia/Sponsor oficiall (2).png" class="img-fluid sponsor" alt="Esto es un banner" loading="lazy">
+        </aside>
         <footer>
-            <p class="parrafoFooter">Todos los derechos reservados</p>     
+          <section class="buttons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="https://www.instagram.com/70.h2o/" class="fa fa-instagram"></a>
+          </section>
         </footer>
    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

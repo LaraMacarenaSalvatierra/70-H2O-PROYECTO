@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Concert+One&family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Sacramento&family=Viga&display=swap');
 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
 body {
-    background-image: linear-gradient(to right bottom, #051937, #003252, #004d6b, #006981, #098692);
-    }
-    .eslogan { 
+    height: 100vh;
+}
+
+.eslogan { 
     font-family: 'Courgette', cursive;
     background-color: lightblue;
     font-size:xx-large;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
+    overflow: hidden;
+    width: 100%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
 }
 
 h1{
@@ -22,7 +37,8 @@ h1{
 }
 
 .animate__animated {
-    --animate-duration: 2s;
+    --animate-duration: 4s;
+    width: 100%;
 }
 
 .imagenConLogo {
@@ -30,19 +46,20 @@ h1{
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
-    transition: all;
 }
 
 .parrafos {
    color:#f5e5ed ; 
+   margin-left: 5%;
 }
 
 .formulario {
     font-family: 'Courgette', cursive;
     font-size: x-large;
     color:#f5e5ed ;
-}
+    padding: auto;
 
+}
 
 h2 {
     font-family: 'Courgette', cursive;
@@ -60,9 +77,78 @@ footer{
 .parrafoFooter {
     font-family: 'Courgette', cursive;
     text-align: center;
-    align-content: center;
+    align-content:center;
     flex-direction: column;
     color: #f5e5ed;
+    float: center;
+    
 }
 
+.logo2{
+    float: left;
+}
 
+.parrafoConLogo {
+    float: center;
+    padding: 5%;
+}
+
+.container-fluid {
+    background-image: linear-gradient(to right bottom, #051937, #003252, #004d6b, #006981, #098692);
+    width: 100%;
+} 
+
+.sponsor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.navegador {
+    top: 0;
+    padding: 0;
+    background-color: #051937;
+    width: 100%;
+}
+
+.imagenCoach {
+    width: 460px;
+    height: 450px;
+    margin-left: 24%;
+}
+
+.contacto {
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+iframe{
+    margin-top: 3%;
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    color: #f1f1f1;
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+ 
+  .card {
+    margin-left: 10%;
+  }

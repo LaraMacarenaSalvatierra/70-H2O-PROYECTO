@@ -10,6 +10,13 @@
    color: $colorBlanco ; 
 }
 
+.imagenCoach {
+    width: 460px;
+    height: 450px;
+    margin-left: 24%;
+}
+
+
 .formulario {
     font-family: $fuente;
     font-size: x-large;
@@ -21,4 +28,15 @@
     font-family: $fuente;
     text-align: center;
     color: $colorNegro;
+}
+
+.card {
+    margin-left: 10%;
+  }
+
+ 
+.contacto {
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
 }

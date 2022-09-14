@@ -11,3 +11,23 @@ footer{
     align-content: center;
     flex-direction: column;
     color: $colorBlanco;
+    .buttons {
+        min-width: 700px;
+        display: flex;
+        justify-content:center;
+      }
+      
+      .buttons a {
+        text-decoration: none;
+        font-size: 25px;
+        width: 60px;
+        height: 60px;
+        line-height: 40px;
+        text-align: center;
+        color: #f1f1f1;
+        transition: all .4s ease-in-out;
+      }
+      
+      .buttons a:hover {
+        transform: scale(1.2);
+      }

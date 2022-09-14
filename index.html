@@ -9,45 +9,56 @@
     <link rel="icon" type="image/x-icon" href="./multimedia/gorro-de-natacion.png">
     <link rel="stylesheet" href="./css/estilos1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta name="description"
-    content="Palabras claves">
+    content="Inicio del sitio web. En esta página se muestra el logo del equipo y el sponsor oficial">
  
     <meta name="keywords"
-    content="EQUIPO, AGUAS ABIERTAS, NATACION,">
+    content="EQUIPO, AGUAS ABIERTAS, NATACION, SPONSOR, LOGO">
 </head>
 <body>
     <div class="container-fluid">
       <header> <!--Acá empieza el navegador-->
-        <div class="eslogan animate__animated animate__zoomIn"> Sólo se hunde el que no nada</div> <!--Esto es un eslogan-->  
-        <nav>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/sobrenosotros.html">SOBRE NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/sobreelcoach.html">SOBRE EL COACH</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/participaciones.html">PARTICIPACIONES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="eslogan"> 
+         <div class="logo2"><img src="./multimedia/Logo2.jpeg" alt="Esto es un logo"></div>
+         <div class="parrafoConLogo"><p class="animate__animated animate__zoomIn">Sólo se hunde el que no nada</p></div>
+        </div> <!--Esto es un eslogan-->  
+        <div class="navegador">
+          <nav>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobrenosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobreelcoach.html">EL COACH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/participaciones.html">PARTICIPACIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header> <!--Acá termina el navegador-->
       <main class="row"> <!--El contenido principal del index es una imagen-->
-      
          <h1 class="animate__animated animate__fadeIn">Equipo de natación en aguas abiertas</h1>
          <img class="imagenConLogo col-md-6" src="./multimedia/70imagen22.jpeg" alt="Esto es una imagen">
-          
       </main>
+      <aside>
+        <img src="./multimedia/Sponsor oficiall (2).png" class="img-fluid sponsor" alt="Esto es un banner">
+      </aside>
       <footer>
-    
-        <p class="parrafoFooter">Todos los derechos reservados</p> 
+        <section class="buttons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-whatsapp"></a>
+          <a href="https://www.instagram.com/70.h2o/" class="fa fa-instagram"></a>
+        </section>
       </footer>  
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
